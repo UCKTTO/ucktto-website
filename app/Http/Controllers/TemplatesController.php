@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\FAQ;
 
 class TemplatesController extends Controller
 {
@@ -45,9 +46,38 @@ class TemplatesController extends Controller
     	return view('services/utilityModel');
     }
 
+    public function termsPatent(){
+        return view('services/terms-patent');
+    }
+
+    public function termsid(){
+        return view ('services/terms-id');
+    }
+
+    public function termsum(){
+        return view ('services/terms-um');
+    }
+
+
+    public function application(){
+        return view ('services/application');
+    }
+
+    public function application_patent(){
+        return view ('services/application-patent');
+    }
+
+    public function application_id(){
+        return view ('services/application-id');
+    }    
+
+    public function application_um(){
+        return view ('services/application-um');
+    }
+
     // ip policy
-    public function iptbc(){
-    	return view('ip-policy/ip-policy-tb-content');
+    public function policy(){
+    	return view('ip-policy/policy');
     }
     public function section1(){
     	return view('ip-policy/section1');
@@ -57,12 +87,6 @@ class TemplatesController extends Controller
     }
     public function section3(){
     	return view('ip-policy/section3');
-    }
-    public function section4(){
-    	return view('ip-policy/section4');
-    }
-    public function section5(){
-    	return view('ip-policy/section5');
     }
     public function section6(){
 	return view('ip-policy/section6');
@@ -76,9 +100,6 @@ class TemplatesController extends Controller
     public function section9(){
 	return view('ip-policy/section9');
     }
-    public function section10(){
-	return view('ip-policy/section10');
-    }
     public function section11(){
 	return view('ip-policy/section11');
     }
@@ -88,90 +109,13 @@ class TemplatesController extends Controller
     public function section13(){
 	return view('ip-policy/section13');
     }
-    public function section14(){
-	return view('ip-policy/section14');
-    }
-    public function section15(){
-	return view('ip-policy/section15');
-    }
-    public function section16(){
-	return view('ip-policy/section16');
-    }
-    public function section17(){
-	return view('ip-policy/section17');
-    }
     public function ipRef(){
 	return view('ip-policy/ip-ref');
-    }
-    
-
-    //ktto policy
-    public function kttotbc(){
-	return view('ktto-policy/ktto-policy-tb-content');
-    }
-    public function kttoSection1(){
-	return view('ktto-policy/ktto-section1');
-    }
-    public function kttoSection2(){
-	return view('ktto-policy/ktto-section2');
-    }
-    public function kttoSection3(){
-	return view('ktto-policy/ktto-section3');
-    }
-    public function kttoSection4(){
-	return view('ktto-policy/ktto-section4');
-    }
-    public function kttoSection5(){
-	return view('ktto-policy/ktto-section5');
-    }
-    public function kttoSection6(){
-	return view('ktto-policy/ktto-section6');
-    }
-    public function kttoSection7(){
-	return view('ktto-policy/ktto-section7');
-    }
-    public function kttoSection8(){
-	return view('ktto-policy/ktto-section8');
-    }
-    public function kttoSection9(){
-	return view('ktto-policy/ktto-section9');
-    }
-    public function kttoSection10(){
-	return view('ktto-policy/ktto-section10');
-    }
-    public function kttoSection11(){
-	return view('ktto-policy/ktto-section11');
-    }
-    public function kttoSection12(){
-	return view('ktto-policy/ktto-section12');
-    }
-    public function kttoSection13(){
-	return view('ktto-policy/ktto-section13');
-    }
-    public function kttoSection14(){
-	return view('ktto-policy/ktto-section14');
-    }
-    public function kttoSection15(){
-	return view('ktto-policy/ktto-section15');
-    }
-    public function kttoSection16(){
-	return view('ktto-policy/ktto-section16');
-    }
-        public function kttoSection17(){
-	return view('ktto-policy/ktto-section17');
-    }
-    public function kttoSection18(){
-	return view('ktto-policy/ktto-section18');
-    }
-    public function annexA(){
-	return view('ktto-policy/annex-a');
-    }
-    public function kttoRef(){
-	return view('ktto-policy/ktto-ref');
     }
 
     //faq
     public function faq(){
-        return view('faq');
+        $faqs = FAQ::all();
+        return view('faq', compact('faqs'));
     }
 }

@@ -5,8 +5,8 @@
 	<h2 style="text-align: center">INDUSTRY COLLABORATION</h2>
 
 	<video width="700" controls>
-	  <source src="Industry Collaboration.mp4" type="video/mp4">
-	  <source src="Industry Collaboration.ogg" type="video/ogg">
+	  <source src="vids/Industry Collaboration.mp4" type="video/mp4">
+	  <source src="vids/Industry Collaboration.ogg" type="video/ogg">
 	  Your browser does not support HTML video.
 	</video>
 </div>

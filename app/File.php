@@ -9,7 +9,8 @@ class File extends Model
     protected $table = 'files';
     protected $fillable = [
         'name',
-        'file_path'
+        'file_path',
+        'category'
     ];
 
     public function file(){

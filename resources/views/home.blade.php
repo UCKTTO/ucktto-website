@@ -1,58 +1,64 @@
 @extends('layout.monster')
 @section('content')
 
+<head>
+	<title>UCKTTO | Home</title>
+</head>
+
 <section>
 	<div class="parallax-container" id="home">
 		<div class="parallax"><img src="img/ucnow.jpg"></div>
       	<div class="container">
       		<div class="row">
-      			<div class="col s12 m12" style="text-align: center">
-      				<div class="home w3-animate-opacity">
-      				<h1>Knowledge and Technology Transfer Office</h1>
-					<p class="form">The University of the Cordilleras Knowledge and Technology Transfer Office (UC KTTO) was established under the Intellectual Property Managemant Program for Academic Institution Commercializing Technologies (IMPACT) Program of the Department of Science and Technology (DOST) in November of 2020. <br> <a class="waves-effect waves-light btn green" href="/about">READ MORE</a></p></div> 
-    			</div>
-			</div>
-      	</div>		
-    </div>
+      			<div class="col xl12 l12 m12 s12">
+			      <center><img src="img/kttowhite.png" width="50%" height="50%"></center>
+			      <p>The University of the Cordilleras Knowledge and Technology Office (UC KTTO) was established under the Intellectual Property Management Program for Academic Institutions Commercializing Technologies (IMPACT) Program of the Department of Science and Technology (DOST) in November of 2020.</p>
+			      <a class="waves-effect waves-light btn green" href="/about">Read More</a>
+			    </div>
+      		</div>		
+    	</div>
 </section>
-
-<section class="parallax-container">
-	<div class="parallax"><img src="img/grey.jpg"></div>
-		<div class="row" id="events">
+    <div class="divider"></div>
+<section class="parallax-container" id="events">
+	<div class="parallax"><img src="img/white.jpg"></div>
+		<div class="row">
 			<div class="col s12 m12"> 
-			<h2 style="color: black">EVENTS</h2>
+			<h2>EVENTS</h2>
+			<div class="divider"></div>
 			</div>
-			<div class="col xl4 l4 m12 s12" id="col">
-				<a href="/event1"><img src="event1_img.png"></a>
+			<div class="col xl4 l12 m12 s12" id="col">
+				<a href="event1"><img src="img/event1_img.png"></a>
 			</div>
-			<div class="col xl4 l4 m12 s12" id="col">
-				<a href="/event2"><img src="event2_img.png"></a>
+			<div class="col xl4 l12 m12 s12" id="col">
+				<a href="event2"><img src="img/event2_img.png"></a>
 			</div>
-			<div class="col xl4 l4 m12 s12" id="col">
-				<a href="/event3"><img src="event3_img.png"></a>
+			<div class="col xl4 l12 m12 s12" id="col">
+				<a href="event3"><img src="img/event3_img.png"></a>
 			</div>		
 		</div>
-		<div class="divider"></div>	
 	</div>
 </section>
 
-<section class="parallax-container">
+<section class="parallax-container" id="services">
 	<div class="parallax"><img src="img/white.jpg"></div>
-	<div class="container" id="events">
+	<div class="container">
 		<div class="row">
 			<div class="col s12 m12"> 
 			<h2 style="color: black">SERVICES</h2>
+			<div class="divider"></div>
 			</div>
 			<div class="col xl4 l4 m4 s12" id="col">
 				<div class="card white">
 					<div class="card-content black-text">
 						<span class="card-title">FORMS</span>
 						<p class="forms">You can download the forms here:<br>
-						<a class="waves-effect waves-light btn green" href="./patentform.docx">Patent Form</a><br>
-						<a class="waves-effect waves-light btn green" href="./copyrightform.docx">Copyright Form</a><br>
-						<a class="waves-effect waves-light btn green" href="./trademarkform.docx">Trademark Form</a><br>
-						<a class="waves-effect waves-light btn green" href="./industrialdesignform.docx">Industrial Design Form</a><br>
-						<a class="waves-effect waves-light btn green" href="./utilitymodelform.docx">Utility Model Form</a>
+						<a class="waves-effect waves-light btn green" href="./forms/INVENTION DISCLOSURE FORM.pdf">Invention Disclosure Form</a><br>
+						<a class="waves-effect waves-light btn green" href="./forms/COPYRIGHT DISCLOSURE FORM.pdf">Copyright Disclosure Form</a><br>
+						<a class="waves-effect waves-light btn green" href="./forms/TRADEMARK REGISTRATION REQUEST FORM.pdf">Trademark Registration Form</a><br>
+						<a class="waves-effect waves-light btn green" href="./forms/ASSIGNMENT OF IP REPRESENTATIVE.pdf">Assignment of IP Representative Form</a><br>
+						<a class="waves-effect waves-light btn green" href="./forms/SUPPLEMENTAL SHEET.pdf">Supplemental Sheet Form</a><br>
+						<a class="waves-effect waves-light btn green" href="./forms/IP EVALUATION FORM.pdf">IP Evaluation Form</a><br>
+						<a class="waves-effect waves-light btn green" href="./forms/NDA.pdf">Non-Disclosure Agreement Form</a>
 						</p>
 					</div>
 				</div>

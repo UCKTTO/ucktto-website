@@ -33,49 +33,30 @@ Route::post('/trademark', 'FileUploadController@trademark');
 Route::post('/industrialDesign', 'FileUploadController@industrialDesign');
 Route::post('/utilityModel', 'FileUploadController@utilityModel');
 
+Route::get('/terms-patent', 'TemplatesController@termsPatent');
+Route::get('/terms-id', 'TemplatesController@termsid');
+Route::get('/terms-um', 'TemplatesController@termsum');
+Route::get('/application-patent', 'TemplatesController@application_patent');
+Route::get('/application-id', 'TemplatesController@application_id');
+Route::get('/application-um', 'TemplatesController@application_um');
+
+Route::post('/application-patent', 'TemplatesController@application_patent');
+Route::post('/application-id', 'TemplatesController@application_id');
+Route::post('/application-um', 'TemplatesController@application_um');
+
 // ip policies
-Route::get('/ip-policy-tb-content', 'TemplatesController@iptbc');
+Route::get('/policy', 'TemplatesController@policy');
 Route::get('/section1', 'TemplatesController@section1');
 Route::get('/section2', 'TemplatesController@section2');
 Route::get('/section3', 'TemplatesController@section3');
-Route::get('/section4', 'TemplatesController@section4');
-Route::get('/section5', 'TemplatesController@section5');
 Route::get('/section6', 'TemplatesController@section6');
 Route::get('/section7', 'TemplatesController@section7');
 Route::get('/section8', 'TemplatesController@section8');
 Route::get('/section9', 'TemplatesController@section9');
-Route::get('/section10', 'TemplatesController@section10');
 Route::get('/section11', 'TemplatesController@section11');
 Route::get('/section12', 'TemplatesController@section12');
 Route::get('/section13', 'TemplatesController@section13');
-Route::get('/section14', 'TemplatesController@section14');
-Route::get('/section15', 'TemplatesController@section15');
-Route::get('/section16', 'TemplatesController@section16');
-Route::get('/section17', 'TemplatesController@section17');
 Route::get('/ip-ref', 'TemplatesController@ipRef');
-
-//KTTO POLICY
-Route::get('/ktto-policy-tb-content', 'TemplatesController@kttotbc');
-Route::get('/ktto-section1', 'TemplatesController@kttoSection1');
-Route::get('/ktto-section2', 'TemplatesController@kttoSection2');
-Route::get('/ktto-section3', 'TemplatesController@kttoSection3');
-Route::get('/ktto-section4', 'TemplatesController@kttoSection4');
-Route::get('/ktto-section5', 'TemplatesController@kttoSection5');
-Route::get('/ktto-section6', 'TemplatesController@kttoSection6');
-Route::get('/ktto-section7', 'TemplatesController@kttoSection7');
-Route::get('/ktto-section8', 'TemplatesController@kttoSection8');
-Route::get('/ktto-section9', 'TemplatesController@kttoSection9');
-Route::get('/ktto-section10', 'TemplatesController@kttoSection10');
-Route::get('/ktto-section11', 'TemplatesController@kttoSection11');
-Route::get('/ktto-section12', 'TemplatesController@kttoSection12');
-Route::get('/ktto-section13', 'TemplatesController@kttoSection13');
-Route::get('/ktto-section14', 'TemplatesController@kttoSection14');
-Route::get('/ktto-section15', 'TemplatesController@kttoSection15');
-Route::get('/ktto-section16', 'TemplatesController@kttoSection16');
-Route::get('/ktto-section17', 'TemplatesController@kttoSection17');
-Route::get('/ktto-section18', 'TemplatesController@kttoSection18');
-Route::get('/annex-a', 'TemplatesController@annexA');
-Route::get('/ktto-ref', 'TemplatesController@kttoRef');
 
 //faq
 Route::get('/faq', 'TemplatesController@faq');
@@ -86,6 +67,33 @@ Route::post('/admin', 'AuthController@login');
 Route::middleware(['auth'])->group(function(){
 	Route::get('/dashboard', 'DashboardController@index');
 	Route::get('/logout', 'AuthController@logout');
+
+	Route::get('/admin/faq', 'FaqsController@index');
+	Route::post('/admin/faq', 'FaqsController@store');
+	//Route::get('/faqs/{faq}/edit', 'FaqsController@edit');
+	//Route::put('/faqs/{faq}','FaqsController@update');
+	// Route::delete('/faqs/{faq}','FaqsController@destroy');
+	Route::get('/userprof', 'DashboardController@userprof');
+	Route::post('/userprof', 'DashboardController@update');
+	Route::get('/ipassessment', 'DashboardController@inventory');
+	Route::get('/notifications', 'DashboardController@notif');
+
+	Route::get('/metrics','DashboardController@metrics');
+
+	Route::get('/colleges','ProjectsController@index');
+	Route::get('/projects/create', 'ProjectsController@create');
+	Route::post('/projects', 'ProjectsController@store');
+	Route::get('/projects/{projects}', 'ProjectsController@show');
+	Route::get('/projects/{projects}/edit', 'ProjectsController@edit');
+	Route::put('/projects/{projects}', 'ProjectsController@update');
+	Route::delete('/projects/{projects}', 'ProjectsController@destroy');
 });
 
-//dashboard
+//for dashoard testing
+Route::get('dashboard1','DashboardController@one');
+Route::get('dashboard2', 'DashboardController@two');
+
+
+Route::get('admin/trends', 'DashboardController@trends');
+
+

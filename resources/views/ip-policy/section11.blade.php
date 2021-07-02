@@ -1,74 +1,57 @@
 @extends('layout.monster')
 @section('content')
+@include('layout.bookcss')
+<head>
+  <title>UCKTTO | Policy</title>
+</head>
 
-<div class="ip-policy w3-animate-opacity">
-	<h2>UNIVERSITY OF THE CORDILLERAS <br>
-	INTELLECTUALL PROPERTY POLICY</h2>
+<section class="container">
+  <div class="row">
+    <div class="col xl12 l12 m12 s12">
+      <center><img src="img/KTTO.png" width="30%" height="20%"></center>
+    </div>
+  </div>
+</section>
 
-	<!-- table of contents -->
-	<div class="ip-row">
-		<div class="ip-container">
-			<h3>SECTION 11</h3>
-			<h4 style="text-align: center">IMPLEMENTATION AND PROTECTION OF <br>INTELLECTUAL PROPERTY</h4>
-			
-			<ul>
-				<li>
-					<p><span><b>11.1</b></span> The University of the Cordilleras Knowledge and Technology Transfer Office (UC KTTO) is the main office responsible for the protection and commercialization of the University’s Intellectual Property.</p>
-				</li>
-				<li>
-					<p><span><b>11.2</b></span> Functions and Duties. The UC KTTO shall:</p>
-					<ul>
-						<li>
-							<span><b>*</b></span>Manage the protection of the University’s Intellectual Property, in accordance with this Policy;
-						</li>
-						<li>
-							<span><b>*</b></span>Assess the patentability of a work;
-						</li>
-						<li>
-							<span><b>*</b></span>Assist in the execution of applications, registrations and other documents relating to works and inventions necessary to facilitate the filing of patents;
-						</li>
-						<li>
-							<span><b>*</b></span>Register or deposit intellectual property with the IPO Philippines and/or foreign Intellectual Property offices on behalf of the University;
-						</li>
-						<li>
-							<span><b>*</b></span>Negotiate contracts related to the commercialization of Intellectual Property owned or assigned to the University;
-						</li>
-						<li>
-							<span><b>*</b></span>Monitor the status of royalty payments;
-						</li>
-						<li>
-							<span><b>*</b></span>Provide assistance by giving information to parties who wish to register/deposit their works/other intellectual property with the appropriate bodies;
-						</li>
-						<li>
-							<span><b>*</b></span>Advocate within the University for the protection of intellectual property;
-						</li>
-						<li>
-							<span><b>*</b></span>Approve the licensing or assignment of intellectual property owned by the University;
-						</li>
-						<li>
-							<span><b>*</b></span>Recommend changes in this Policy; and
-						</li>
-						<li>
-							<span><b>*</b></span>Such other functions as may be necessary to carry out the objectives of this Policy.
-						</li>
-					</ul>
-				</li>
-			</ul>
-			<div class="ip-buttom">
-				<div class="ip-buttom-column">
-					<a href="/section10">
-					<i class="fa fa-caret-left"></i> PREVIOUS</a>
-				</div>
-				<div style="text-align: center" class="ip-buttom-column">
-					<a href="/ip-policy-tb-content">TABLE OF CONTENTS</a>
-				</div>
-				<div style="text-align: right" class="ip-buttom-column">
-					<a href="/section12">
-					NEXT <i class="fa fa-caret-right"></i></a>
-				</div>
-			</div>
-			
-		</div>
+<section class="container">
+  <div class="row">
+    <div class="col s12">
+      <div id="wrapper">
+    <div id="container">
+        <section class="open-book">
+            <header>
+                <h1>University of the Cordilleras</h1>
+                <h6>UC KTTO Policy</h6>
+            </header>
+            <article>
+                <h2 class="chapter-title">Intellectual Property Policy</h2>
+                 <h4>Section 11: Implementation and Protection of Intellectual Property</h4>
+                 <p>11.1   The University of the Cordilleras Knowledge and Technology Transfer Office (UC KTTO) is the main office responsible for the protection and Commercialization of the University’s Intellectual Property. <br><br>11.2    Functions and Duties. The UC KTTO shall:<br>
+					a)	Manage the protection of the University’s Intellectual Property, in accordance with this Policy;<br>
+					b)	Assess the patentability of a work;<br>
+					c)	Assist in the execution of applications, registrations and other documents relating to works and inventions necessary to facilitate the filing of patents;<br>
+					d)	Register or deposit intellectual property with the IPO Philippines and/or foreign Intellectual Property offices on behalf of the University;<br>
+					e)	Negotiate contracts related to the commercialization of Intellectual Property owned or assigned to the University;<br>
+					f)	Monitor the status of royalty payments;<br>
+					g)	Provide assistance by giving information to parties who wish to register/deposit their works/other intellectual property with the appropriate bodies;<br>
+					h)	Advocate within the University for the protection of intellectual property;<br>
+					i)	Approve the licensing or assignment of intellectual property owned by the University;<br>
+					j)	Recommend changes in this Policy; and<br>
+					k)	Such other functions as may be necessary to carry out the objectives of this Policy.<br></p>   <br>
+
+   </article>
+        </section>
+    </div>
+</div>
+</div>
+</div>
+
+<div class="row">
+	<div class="col s12">
+		<a class="waves-effect waves-light btn green" href="/section9">Previous</a>
+        <a class="waves-effect waves-light btn green" href="/policy">Table of Contents</a>
+        <a class="waves-effect waves-light btn green" href="/section12">Next</a>
 	</div>
 </div>
+</section>
 @stop

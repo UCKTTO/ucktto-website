@@ -1,56 +1,55 @@
-@extends('layout.monster')
+@extends('layout.adminlayout')
 @section('content')
+<head>
+	<title>UCKTTO | Dashboard</title>
+</head>
 
-<div class="container">
-	<h3 class="center">Welcome Admin</h3>
-	<form action="/logout" method="GET">
-            <div class="center">
-              <button class="btn waves-effect waves-light green"type="submit" name="action">Logout</button>
-            </div>  
-    </form>
-</div class="container">
+<body>
+
+	<div class="w3-container">
 	<table class="striped">
 		<thead>
+			<tr>Submitted Forms</tr>
 			<tr>
-				<th>ID</th>
-				<!-- <th>Category</th> -->
-				<th>Name</th>
-				<th></th>
-				<th></th>
+			<th>ID</th>
+			<th>Category</th>
+			<th>Name</th>
+			<th></th>
+			<th></th>
 			</tr>
 		</thead>
 		<tbody>
 			<tr>
 			<td>
 				@foreach($files as $file)
-					{{ $file->id }} <br>
+				{{ $file->id }} <br>
 				@endforeach
 			</td>
-			<!-- <td>
+			<td>
 				@foreach($files as $file)
-					{{ $file->category }} <br>
+				{{ $file->category }} <br>
 				@endforeach	
-			</td> -->			
+			</td>			
 			<td>
 				@foreach($files as $file)
-					{{ $file->name }} <br>
+				{{ $file->name }} <br>
 				@endforeach
 			</td>
 			<td>
 				@foreach($files as $file)
-					<a href="{{ $file->file_path }}">Download</a> <br>
+				<a href="{{ $file->file_path }}">Download</a> <br>
 				@endforeach
 			</td>
 			<td>
 				@foreach($files as $file)
-					<a href="{{ $file->file_path }}" target="_blank">View</a> <br>
+				<a href="{{ $file->file_path }}" target="_blank">View</a> <br>
 				@endforeach
 			</td>
 			</tr>
 		</tbody>
 	</table>
-<div>
-	
-</div>
+	</div>
 
-@stop
+</section>
+
+@endsection

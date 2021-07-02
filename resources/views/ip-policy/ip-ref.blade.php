@@ -1,40 +1,54 @@
 @extends('layout.monster')
 @section('content')
+@include('layout.bookcss')
+<head>
+  <title>UCKTTO | Policy</title>
+</head>
 
-<div class="ip-policy w3-animate-opacity">
-	<h2>UNIVERSITY OF THE CORDILLERAS <br>
-	INTELLECTUALL PROPERTY POLICY</h2>
+<section class="container">
+  <div class="row">
+    <div class="col xl12 l12 m12 s12">
+      <center><img src="img/KTTO.png" width="30%" height="20%"></center>
+    </div>
+  </div>
+</section>
 
-	<!-- table of contents -->
-	<div class="ip-row">
-		<div class="ip-container">
-			<h3></h3>
-			<h4 style="text-align: center">REFERENCES</h4>
-			
-			<p>
-				Ateneo de Manila University Intellectual Property Office. Ateneo Intellectual Property Policy. 	Retrieved on December 14, 2020 from <a href="https://www.aipo.ateneo.edu/ip-policy"><u>https://www.aipo.ateneo.edu/ip-policy</u></a>
-			</p>
-			<p>
-				De La Salle University Intellectual Property Office. Retrieved on December 14, 2020 from <a href="https://www.dlsu.edu.ph/research/offices/dipo/ip-policies/"><u>https://www.dlsu.edu.ph/research/offices/dipo/ip-policies/</u></a>
-			</p>
-			<p>
-				Polytechnic University of the Philippinnes. Intellectual Property Management Office <a href="https://www.pup.edu.ph/research/ipmo/functions"><u>https://www.pup.edu.ph/research/ipmo/functions</u></a>
-			</p>
-			<p>
-				Intellectual Property Policies for Universities <a href="https://www.wipo.int/about-ip/en/universities_research/ip_policies/"><u>https://www.wipo.int/about-ip/en/universities_research/ip_policies/</u></a>
-			</p>
-			<div class="ip-buttom">
-				<div class="ip-buttom-column">
-					<a href="/section17">
-						<i class="fa fa-caret-left"></i> PREVIOUS
-					</a>
-				</div>
-				<div style="text-align: center" class="ip-buttom-column">
-					<a href="/ip-policy-tb-content">TABLE OF CONTENTS</a>
-				</div>
-			</div>
-			
-		</div>
+<section class="container">
+  <div class="row">
+    <div class="col s12">
+      <div id="wrapper">
+    <div id="container">
+        <section class="open-book">
+            <header>
+                <h1>University of the Cordilleras</h1>
+                <h6>UC KTTO Policy</h6>
+            </header>
+            <article>
+                <h2 class="chapter-title">Intellectual Property Policy</h2>
+                 <h4>References</h4>
+                 <p>Ateneo de Manila University Intellectual Property Office. Ateneo Intellectual Property Policy. Retrieved on December 14, 2020 <br>https://www.aipo.ateneo.edu/ip-policy</p><br>
+
+                 <p>De La Salle University Intellectual Property Office. Retrieved on December 14, 2020 <br>https://www.dlsu.edu.ph/research/offices/dipo/ip-policies/</p><br>
+
+                 <p>Polytechnic University of the Philippinnes. Intellectual Property Management Office <br>https://www.pup.edu.ph/research/ipmo/functions</p><br>
+
+                 <p>Intellectual Property Policies for Universities <br>https://www.wipo.int/about-ip/en/universities_research/ip_policies/</p><br>
+
+                 <p>IPOPHL (Intellectual Property Office of the Philippines) <br>https://www.ipophil.gov.ph/</p><br>
+
+                 <p>Bulacan State University University <br>Innovation and Technology Support Manual</p><br>
+   </article>
+        </section>
+    </div>
+</div>
+</div>
+</div>
+
+<div class="row">
+	<div class="col s12">
+		<a class="waves-effect waves-light btn green" href="/section13">Previous</a>
+		<a class="waves-effect waves-light btn green" href="/policy">Table of Contents</a>
 	</div>
 </div>
+</section>
 @stop
