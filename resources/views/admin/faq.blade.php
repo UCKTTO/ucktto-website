@@ -8,7 +8,7 @@
 
 <div class="w3-container">
 	<br>
-	<div class="green lighten-5">
+	<div class="green lighten-4">
 	<h4>List of Faqs</h4>
 		<table>
 			<thead>
@@ -49,7 +49,7 @@
 		
 			<label for="answer"> Answer </label>
 			<textarea name="answer" id="answer" placeholder="Enter Answer"></textarea>
-			<button class="btn waves-effect" type="submit">Add</button>
+			<button class="btn waves-effect green darken-4" type="submit">Add</button>
 		</form>
 	</div>
 	

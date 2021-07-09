@@ -85,7 +85,7 @@
 				<form action="/trademark" enctype="multipart/form-data" method="post">
 					@csrf
 					<p>Rename the file as TRF_(invention Title) then Upload your fully accomplished form here:</p>
-					<input type="file" name="trademark" accept=".pdf" />
+					<input type="file" name="trademark" accept=".docx,.doc, .pdf" />
 					<input type="hidden" name="category" value="trademark">
 					<br><br>
 					<input type="submit"/>

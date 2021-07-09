@@ -85,7 +85,7 @@
 				<form action="/industrialDesign" enctype="multipart/form-data" method="post">
 					@csrf
 					<p>Rename the file as IDF_(invention Title) then Upload your fully accomplished form here:</p>
-					<input type="file" name="industrialDesign" accept=".pdf" />
+					<input type="file" name="industrialDesign" accept=".docx,.doc, .pdf" />
 					<input type="hidden" name="category" value="industrial design">
 					<br><br>
 					<input type="submit"/>

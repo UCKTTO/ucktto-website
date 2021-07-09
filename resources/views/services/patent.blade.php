@@ -85,7 +85,7 @@
 				<form action="/patent" enctype="multipart/form-data" method="post">
 					@csrf
 					<p>Rename the file as IDF_(invention Title) then Upload your fully accomplished form here:</p>
-					<input type="file" name="patent" accept=".pdf"/>
+					<input type="file" name="patent" accept=".docx,.doc, .pdf"/>
 					<br><br>
 					<input type="submit"/>
 				</form>

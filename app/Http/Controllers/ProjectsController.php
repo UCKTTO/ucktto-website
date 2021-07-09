@@ -9,7 +9,7 @@ class ProjectsController extends Controller
 {
     
     public function index(){
-    	$projects = Projects::all();
+    	$projects = Projects::Paginate(10);
     	return view('/admin/colleges', compact('projects'));
     }
 
@@ -33,18 +33,30 @@ class ProjectsController extends Controller
 	        'author4'=> 'required',
 	        'author5'=> 'required',
 	        'author6'=> 'required',
+	        'author7'=> 'required',
+	        'author8'=> 'required',
+	        'author9'=> 'required',
+	        'author10'=> 'required',
 	        'email1'=> 'required',
 	        'email2'=> 'required',
 	        'email3'=> 'required',
 	        'email4'=> 'required',
 	        'email5'=> 'required',
 	        'email6'=> 'required',
+	        'email7'=> 'required',
+	        'email8'=> 'required',
+	        'email9'=> 'required',
+	        'email10'=> 'required',
 	        'phonenumber1'=> 'required',
 	        'phonenumber2'=> 'required',
 	        'phonenumber3'=> 'required',
 	        'phonenumber4'=> 'required',
 	        'phonenumber5'=> 'required',
 	        'phonenumber6'=> 'required',
+	        'phonenumber7'=> 'required',
+	        'phonenumber8'=> 'required',
+	        'phonenumber9'=> 'required',
+	        'phonenumber10'=> 'required',
 	        'adviser'=> 'required',
 	        'date'=> 'required',
 	        'description'=> 'required',
@@ -80,18 +92,30 @@ class ProjectsController extends Controller
 	        'author4'=> 'required',
 	        'author5'=> 'required',
 	        'author6'=> 'required',
+	        'author7'=> 'required',
+	        'author8'=> 'required',
+	        'author9'=> 'required',
+	        'author10'=> 'required',
 	        'email1'=> 'required',
 	        'email2'=> 'required',
 	        'email3'=> 'required',
 	        'email4'=> 'required',
 	        'email5'=> 'required',
 	        'email6'=> 'required',
+	        'email7'=> 'required',
+	        'email8'=> 'required',
+	        'email9'=> 'required',
+	        'email10'=> 'required',
 	        'phonenumber1'=> 'required',
 	        'phonenumber2'=> 'required',
 	        'phonenumber3'=> 'required',
 	        'phonenumber4'=> 'required',
 	        'phonenumber5'=> 'required',
 	        'phonenumber6'=> 'required',
+	        'phonenumber7'=> 'required',
+	        'phonenumber8'=> 'required',
+	        'phonenumber9'=> 'required',
+	        'phonenumber10'=> 'required',
 	        'adviser'=> 'required',
 	        'date'=> 'required',
 	        'description'=> 'required',
@@ -116,4 +140,27 @@ class ProjectsController extends Controller
     	return redirect('/colleges');
     }
 
+    public function search(Request $request){
+    	$search = $request->input('search');
+
+    	$projects = Projects::where('title','LIKE',"%{$search}%")->orWhere('college','LIKE',"%{$search}%")->orWhere('department','LIKE',"%{$search}%")->orWhere('author1','LIKE',"%{$search}%")->orWhere('author2','LIKE',"%{$search}%")->orWhere('author3','LIKE',"%{$search}%")->orWhere('author4','LIKE',"%{$search}%")->orWhere('author5','LIKE',"%{$search}%")->orWhere('author6','LIKE',"%{$search}%")->orWhere('adviser','LIKE',"%{$search}%")->orWhere('action','LIKE',"%{$search}%")->orWhere('pip','LIKE',"%{$search}%")->orWhere('pil','LIKE',"%{$search}%")->get();
+
+    	return view('/admin/projects/search', compact('projects'));
+    }
+
+
+    public function date(){
+    	$projects = Projects::all()->sortBy('date');
+    	return view('/admin/projects/sort', compact('projects'));;
+    }
+
+    public function title(){
+    	$projects = Projects::all()->sortBy('title');
+    	return view('/admin/projects/sort', compact('projects'));;
+    }
+
+    public function col(){
+    	$projects = Projects::all()->sortBy('college');
+    	return view('/admin/projects/sort', compact('projects'));;
+    }
 }

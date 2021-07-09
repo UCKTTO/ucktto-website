@@ -16,7 +16,7 @@
 <body>
 
 <section>
-	<div class="w3-sidebar w3-teal w3-bar-block" style="width:15%">
+	<div class="w3-sidebar w3-bar-block green darken-4" style="width:15%">
 	  <div class="center">
 		<h2>Admin<i class="material-icons right">menu</i></h2><br>
 		<div class="divider"></div><br>
@@ -31,7 +31,7 @@
 			<li><a href="/ipassessment">IP Assessment</a><i class="material-icons left">assignment</i></li><br>
 			<ul>
 				<li><a href="/metrics">Metrics<i class="material-icons right">assessment</i></a></li><br>
-				<li><a href="/colleges">Colleges<i class="material-icons right">storage</i></a></li><br>
+				<li><a href="/colleges">Projects<i class="material-icons right">storage</i></a></li><br>
 			</ul>
 		</ul>
 
@@ -41,7 +41,7 @@
 	<div class="w3-container w3-light-grey">
 	  <form action="/logout" method="GET" class="center">
 	  	<h3> Welcome Admin
-			<button class="btn waves-effect"type="submit" name="action">Logout</button> </h3>
+			<button class="btn waves-effect green darken-4"type="submit" name="action">Logout</button> </h3>
 		</form>
 	</div>
 	@yield('content')

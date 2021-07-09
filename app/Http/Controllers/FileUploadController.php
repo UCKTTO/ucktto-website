@@ -102,4 +102,27 @@ class FileUploadController extends Controller
             return back()->with('popup','open');
         }
     }
+
+     public function search(Request $request){
+        $search = $request->input('search');
+
+        $files = File::where('name','LIKE',"%{$search}%")->orWhere('category','LIKE',"%{$search}%")->get();
+
+        return view('/admin/search', compact('files'));
+    }
+
+    public function date(){
+        $diles = File::all()->sortBy('date');
+        return view('/admin/dashboard', compact('files'));
+    }
+
+    public function name(){
+        $files = File::all()->sortBy('title');
+        return view('/admin/dashboard', compact('files'));
+    }
+
+    public function category(){
+        $files = File::all()->sortBy('college');
+        return view('/admin/dashboard', compact('files'));
+    }
 }

@@ -68,6 +68,11 @@ Route::middleware(['auth'])->group(function(){
 	Route::get('/dashboard', 'DashboardController@index');
 	Route::get('/logout', 'AuthController@logout');
 
+	Route::get('/searchdash', 'FileUploadController@search');
+	Route::get('/datedash', 'FileUploadController@date');
+	Route::get('/name', 'FileUploadController@name');
+	Route::get('/category', 'FileUploadController@category');
+
 	Route::get('/admin/faq', 'FaqsController@index');
 	Route::post('/admin/faq', 'FaqsController@store');
 	//Route::get('/faqs/{faq}/edit', 'FaqsController@edit');
@@ -87,6 +92,10 @@ Route::middleware(['auth'])->group(function(){
 	Route::get('/projects/{projects}/edit', 'ProjectsController@edit');
 	Route::put('/projects/{projects}', 'ProjectsController@update');
 	Route::delete('/projects/{projects}', 'ProjectsController@destroy');
+	Route::any('/search', 'ProjectsController@search');
+	Route::get('/date', 'ProjectsController@date');
+	Route::get('/title', 'ProjectsController@title');
+	Route::get('/col', 'ProjectsController@col');
 });
 
 //for dashoard testing

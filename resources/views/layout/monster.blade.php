@@ -91,7 +91,7 @@
           </div>
           <div class="footer-copyright" id="footer">
             <div class="container">
-            <center>All Rigts Reserved © 2020</center>
+            <center>All Rights Reserved © 2020</center>
           </div>
     </div>
 </footer>

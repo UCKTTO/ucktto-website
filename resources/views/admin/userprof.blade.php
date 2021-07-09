@@ -6,13 +6,13 @@
 
 <div class="w3-container">
 	<br>
-	<div class="card-panel horizontal teal accent-2">
+	<div class="card-panel horizontal green lighten-3">
 		<h4>User Profile</h4> 
 		<p>&nbsp&nbsp&nbsp&nbsp&nbspUser Information</p>
 	</div>
 
 	<div>
-		<a href="" class="btn waves-effect waves-light">Edit<i class="material-icons right">edit</i></a><br><br>
+		<a href="" class="btn waves-effect waves-light green darken-4">Edit<i class="material-icons right">edit</i></a><br><br>
 
 	<table>
 		<tr>

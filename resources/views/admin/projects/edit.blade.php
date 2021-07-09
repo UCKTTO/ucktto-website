@@ -9,7 +9,7 @@
 <div class="w3-container">
 	<br><br>
 	<div class="card-panel horizontal center">
-		<h4>Edit Project</h4>
+		<h3>EDIT PROJECT</h3>
 	</div>
 	
 	<div>
@@ -123,6 +123,66 @@
 				<label for="phonenumber6"></label>
 				</div>
 
+				<div class="input-field col s4">
+				<input placeholder="Author 7" id="author7" type="text" name="author7" value="{{ $projects->author7 }}">
+				<label for="author7"></label>
+				</div>
+
+				<div class="input-field col s4">
+				<input placeholder="Email" id="email7" type="email" name="email7" value="{{ $projects->email7 }}">
+				<label for="email7"></label>
+				</div>
+
+				<div class="input-field col s4">
+				<input placeholder="Phone Number" id="phonenumber7" type="text" name="phonenumber7" value="{{ $projects->phonenumber7 }}">
+				<label for="phonenumber7"></label>
+				</div>
+
+				<div class="input-field col s4">
+				<input placeholder="Author 8" id="author8" type="text" name="author8" value="{{ $projects->author8 }}">
+				<label for="author8"></label>
+				</div>
+
+				<div class="input-field col s4">
+				<input placeholder="Email" id="email8" type="email" name="email8" value="{{ $projects->email8 }}">
+				<label for="email8"></label>
+				</div>
+
+				<div class="input-field col s4">
+				<input placeholder="Phone Number" id="phonenumber8" type="text" name="phonenumber8" value="{{ $projects->phonenumber8 }}">
+				<label for="phonenumber8"></label>
+				</div>
+
+				<div class="input-field col s4">
+				<input placeholder="Author 9" id="author9" type="text" name="author9" value="{{ $projects->author9 }}">
+				<label for="author9"></label>
+				</div>
+
+				<div class="input-field col s4">
+				<input placeholder="Email" id="email9" type="email" name="email9" value="{{ $projects->email9 }}">
+				<label for="email9"></label>
+				</div>
+
+				<div class="input-field col s4">
+				<input placeholder="Phone Number" id="phonenumber9" type="text" name="phonenumber9" value="{{ $projects->phonenumber9 }}">
+				<label for="phonenumber9"></label>
+				</div>
+
+				<div class="input-field col s4">
+				<input placeholder="Author 10" id="author10" type="text" name="author10" value="{{ $projects->author10 }}">
+				<label for="author10"></label>
+				</div>
+
+				<div class="input-field col s4">
+				<input placeholder="Email" id="email10" type="email" name="email10" value="{{ $projects->email10 }}">
+				<label for="email10"></label>
+				</div>
+
+				<div class="input-field col s4">
+				<input placeholder="Phone Number" id="phonenumber10" type="text" name="phonenumber10" value="{{ $projects->phonenumber10 }}">
+				<label for="phonenumber10"></label>
+				</div>
+
 				<div class="input-field col s6">
 				<input placeholder="Adviser" id="adviser" type="text" name="adviser" value="{{ $projects->adviser }}">
 				<label for="adviser"></label>
@@ -195,7 +255,7 @@
 			
 			</div>
 			<div class="center">
-			<button  class="btn waves-effect waves-light"type="submit" name="action">Submit
+			<button  class="btn waves-effect waves-light green darken-4"type="submit" name="action">Submit
 			<i class="material-icons right">send</i>
 			</button>
 		</div>

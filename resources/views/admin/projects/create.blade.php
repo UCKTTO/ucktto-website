@@ -9,7 +9,7 @@
 <div class="w3-container">
 	<br><br>
 	<div class="card-panel horizontal center">
-		<h4>Create Project</h4>
+		<h3>CREATE PROJECT</h3>
 	</div>
 	<div>
 		<form action="/projects" method="POST">
@@ -121,6 +121,66 @@
 				<label for="phonenumber6"></label>
 				</div>
 
+				<div class="input-field col s4">
+				<input placeholder="Author 7" id="author7" type="text" name="author7" >
+				<label for="author7"></label>
+				</div>
+
+				<div class="input-field col s4">
+				<input placeholder="Email" id="email7" type="email" name="email7" >
+				<label for="email7"></label>
+				</div>
+
+				<div class="input-field col s4">
+				<input placeholder="Phone Number" id="phonenumber7" type="text" name="phonenumber7" >
+				<label for="phonenumber7"></label>
+				</div>
+
+				<div class="input-field col s4">
+				<input placeholder="Author 8" id="author8" type="text" name="author8" >
+				<label for="author8"></label>
+				</div>
+
+				<div class="input-field col s4">
+				<input placeholder="Email" id="email8" type="email" name="email8" >
+				<label for="email8"></label>
+				</div>
+
+				<div class="input-field col s4">
+				<input placeholder="Phone Number" id="phonenumber8" type="text" name="phonenumber8" >
+				<label for="phonenumber8"></label>
+				</div>
+
+				<div class="input-field col s4">
+				<input placeholder="Author 9" id="author9" type="text" name="author9" >
+				<label for="author9"></label>
+				</div>
+
+				<div class="input-field col s4">
+				<input placeholder="Email" id="email9" type="email" name="email9" >
+				<label for="email9"></label>
+				</div>
+
+				<div class="input-field col s4">
+				<input placeholder="Phone Number" id="phonenumber9" type="text" name="phonenumber9">
+				<label for="phonenumber9"></label>
+				</div>
+
+				<div class="input-field col s4">
+				<input placeholder="Author 10" id="author10" type="text" name="author10" >
+				<label for="author10"></label>
+				</div>
+
+				<div class="input-field col s4">
+				<input placeholder="Email" id="email10" type="email" name="email10" >
+				<label for="email10"></label>
+				</div>
+
+				<div class="input-field col s4">
+				<input placeholder="Phone Number" id="phonenumber10" type="text" name="phonenumber10" >
+				<label for="phonenumber10"></label>
+				</div>
+
 				<div class="input-field col s6">
 				<input placeholder="Adviser" id="adviser" type="text" name="adviser">
 				<label for="adviser"></label>
@@ -193,7 +253,7 @@
 			
 			</div>
 			<div class="center">
-			<button  class="btn waves-effect waves-light" type="submit" name="action">Submit
+			<button  class="btn waves-effect waves-light green darken-4" type="submit" name="action">Submit
 			<i class="material-icons right">send</i>
 			</button>
 		</div>

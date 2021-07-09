@@ -85,7 +85,7 @@
 				<form action="/copyright" enctype="multipart/form-data" method="post">
 					@csrf
 					<p>Rename the file as CDF_(invention Title) then Upload your fully accomplished form here:</p>
-					<input type="file" name="copyright" accept=".pdf" />
+					<input type="file" name="copyright" accept=".docx,.doc, .pdf" />
 					<input type="hidden" name="category" value="copyight">
 					<br><br>
 					<input type="submit"/>
