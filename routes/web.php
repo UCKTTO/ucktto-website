@@ -61,6 +61,10 @@ Route::get('/ip-ref', 'TemplatesController@ipRef');
 //faq
 Route::get('/faq', 'TemplatesController@faq');
 
+//contact
+Route::get('/contact', 'ContactController@index');
+Route::post('/contact', 'ContactController@store');
+
 // admin
 Route::get('/admin', 'AuthController@index')->name('login');
 Route::post('/admin', 'AuthController@login');
@@ -75,11 +79,16 @@ Route::middleware(['auth'])->group(function(){
 
 	Route::get('/admin/faq', 'FaqsController@index');
 	Route::post('/admin/faq', 'FaqsController@store');
-	//Route::get('/faqs/{faq}/edit', 'FaqsController@edit');
-	//Route::put('/faqs/{faq}','FaqsController@update');
-	// Route::delete('/faqs/{faq}','FaqsController@destroy');
+	Route::get('/faq/{faqs}', 'FaqsController@show');
+	Route::get('/faq/{faqs}/edit', 'FaqsController@edit');
+	Route::put('/faq/{faqs}','FaqsController@update');
+	Route::delete('/faq/{faqs}','FaqsController@destroy');
+
 	Route::get('/userprof', 'DashboardController@userprof');
-	Route::post('/userprof', 'DashboardController@update');
+	Route::post('userprof', 'DashboardController@storepass');
+	Route::get('/userprof/{users}/edit', 'DashboardController@edit');
+	Route::put('/userprof/{users}', 'DashboardController@update');
+
 	Route::get('/ipassessment', 'DashboardController@inventory');
 	Route::get('/notifications', 'DashboardController@notif');
 
@@ -97,12 +106,5 @@ Route::middleware(['auth'])->group(function(){
 	Route::get('/title', 'ProjectsController@title');
 	Route::get('/col', 'ProjectsController@col');
 });
-
-//for dashoard testing
-Route::get('dashboard1','DashboardController@one');
-Route::get('dashboard2', 'DashboardController@two');
-
-
-Route::get('admin/trends', 'DashboardController@trends');
 
 
