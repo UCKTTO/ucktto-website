@@ -19,41 +19,33 @@
 	<div class="container">
 		<div class="row">
 			<div class="col s12">
+				<div class="card-panel horizontal">
 				<h2>Industrial Design</h2>
 				<div class="divider"></div>
 				<p>An industrial design is the ornamental or aesthetic aspect of an article. Design, in this sense, may be three-dimensional features (shape or surface of an article), or the two-dimensional features (patterns or lines of color). Handicrafts, jewelry, vehicles, appliances - the subject of industrial designs range from fashion to industrial goods.</p>
+				</div>
 			</div>
 		</div>
 
-		<div class="row" id="bet">
-			<div class="col xl4 l4 m12 s12">
-				<h5 id="ben" onclick="replace1()">BENEFITS</h5>
-			</div>
-
-			<div class="col xl4 l4 m12 s12">
-				<h5 id="el" onclick="replace2()">ELIGIBILITY</h5>
-			</div>
-
-			<div class="col xl4 l4 m12 s12">
-				<h5 id="term" onclick="replace3()">TERM OF PROTECTION</h5> 
-			</div>
-
+		<div class="row">
 			<div class="col s12">
-				<div id = "div1" style="display:block">
-					<p>The owner of a registered industrial design has the right to prevent third parties from making, selling or importing articles bearing or embodying a design which is a copy, or substantially a copy, of the protected design, when such acts are undertaken for commercial purposes.</p>
-				</div>
-
-				<div id = "div2" style="display:none">
-					<p>
-						In order to be registrable, an industrial design must be a new or original creation. The following industrial designs shall not be registrable:	<br>Industrial designs that are dictated essentially by technical or functional considerations to obtain a technical result; <br>Industrial designs which are mere schemes of surface ornamentations existing separately from the industrial product or handicraft; and <br>Industrial designs which are contrary to public order, health, or morals. </p>
-				</div> 
-
-				<div id = "div3" style="display:none">
-					<p>The registration for an industrial design is for a period of 5 years from the filing date of the application. The registration of an industrial design may be renewed for not more than two (2) consecutive periods of five (5) years each (can be renewed for a maximum of 15 years) by paying a renewal fee. The fee should be paid within a year of the expiration of the registration. Industrial design registrations are governed by some of the same provisions that apply to patents. See what these are in Section 119 of the <u>Intellectual Property Code of the Philippines.</u></p>
-				</div>
-			</div>
+				<ul class="collapsible yellow lighten-5">
+				    <li class="active">
+				      <div class="collapsible-header" style="color: black;">BENEFITS</div>
+				      <div class="collapsible-body" style="color: black;"><span><p>The owner of a registered industrial design has the right to prevent third parties from making, selling or importing articles bearing or embodying a design which is a copy, or substantially a copy, of the protected design, when such acts are undertaken for commercial purposes.</p></span></div>
+				    </li>
+				    <li>
+				      <div class="collapsible-header" style="color: black;">ELIGIBILITY</div>
+				      <div class="collapsible-body" style="color: black;"><span><p>In order to be registrable, an industrial design must be a new or original creation. The following industrial designs shall not be registrable:	<br>Industrial designs that are dictated essentially by technical or functional considerations to obtain a technical result; <br>Industrial designs which are mere schemes of surface ornamentations existing separately from the industrial product or handicraft; and <br>Industrial designs which are contrary to public order, health, or morals. </p></span></div>
+				    </li>
+				    <li>
+				      <div class="collapsible-header"  style="color: black;">TERM OF PROTECTION</div>
+				      <div class="collapsible-body" style="color: black;"><span><p>The registration for an industrial design is for a period of 5 years from the filing date of the application. The registration of an industrial design may be renewed for not more than two (2) consecutive periods of five (5) years each (can be renewed for a maximum of 15 years) by paying a renewal fee. The fee should be paid within a year of the expiration of the registration. Industrial design registrations are governed by some of the same provisions that apply to patents. See what these are in Section 119 of the <u>Intellectual Property Code of the Philippines.</u></p></span></div>
+				    </li>
+				  </ul>
+			</div>			
 		</div>
-	</div>
+
 </section>
 <div class="divider"></div>
 
@@ -61,7 +53,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="col s12">
-				<h4>INDUSTRIAL DESIGN REGISTRATION PROCESS</h4>
+				<div class="card-panel horizontal"><h4>INDUSTRIAL DESIGN REGISTRATION PROCESS</h4></div>
 				<img class="img" src="img/id.png">
 			</div>
 		</div>
@@ -74,7 +66,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="col s12">
-				<h2>Download Form or Apply Online</h2>
+				<div class="card-panel horizontal"><h2>Download Form or Apply Online</h2></div>
 			</div>
 			<div class="col xl6 l6 m12 s12">
 				<p>To disclose an invention, kindly download and fill out this form:</p>

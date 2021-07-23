@@ -23,7 +23,7 @@
 	<div class="parallax"><img src="img/white.jpg"></div>
 		<div class="row">
 			<div class="col s12 m12"> 
-			<h2>EVENTS</h2>
+			<div class="card-panel horizontal"><h2>EVENTS</h2></div>
 			<div class="divider"></div>
 			</div>
 			<div class="col xl4 l12 m12 s12" id="col">
@@ -40,11 +40,10 @@
 </section>
 
 <section class="parallax-container" id="services">
-	<div class="parallax"><img src="img/white.jpg"></div>
-	<div class="container">
+	<div class="parallax"><img src="img/light.png"></div>
 		<div class="row">
 			<div class="col s12 m12"> 
-			<h2 style="color: black">SERVICES</h2>
+			<div class="card-panel horizontal"><h2 style="color: black">SERVICES</h2></div>
 			<div class="divider"></div>
 			</div>
 			<div class="col xl4 l4 m4 s12" id="col">
@@ -67,7 +66,7 @@
 				<div class="card white">
 					<div class="card-content black-text">
 						<span class="card-title">COPYRIGHT</span>
-						<p class="form"><br>The legal protection extended to the owner of the rights in an original work. <br><br><br><a class="waves-effect waves-light btn green" href="/copyright">Read More</a><br><br><br></p>
+						<p class="form"><br><br>The legal protection extended to the owner of the rights in an original work. <br><br><br><a class="waves-effect waves-light btn green" href="/copyright">Read More</a><br><br><br></p>
 						</p>
 					</div>
 				</div>
@@ -76,7 +75,7 @@
 				<div class="card white">
 					<div class="card-content black-text">
 						<span class="card-title">PATENT</span>
-						<p class="form"><br>A government-issued grant, bestowing an exclusive right to an inventor over a product. <br><br><a class="waves-effect waves-light btn green" href="/patent">Read More</a><br><br><br></p>
+						<p class="form"><br><br>A government-issued grant, bestowing an exclusive right to an inventor over a product. <br><br><br><a class="waves-effect waves-light btn green" href="/patent">Read More</a><br><br><br></p>
 				
 					</div>
 				</div>
@@ -96,7 +95,7 @@
 				<div class="card white">
 					<div class="card-content black-text">
 						<span class="card-title">INDUSTRIAL DESIGN</span>
-						<p class="form"><br>The ornamental or aesthetic aspect of an article. <br><br><br></b><a class="waves-effect waves-light btn green" href="/industrialDesign">Read More</a><br></p>
+						<p class="form"><br><br>The ornamental or aesthetic aspect of an article. <br><br><br></b><a class="waves-effect waves-light btn green" href="/industrialDesign">Read More</a><br></p>
 					</div>
 				</div>
 			</div>

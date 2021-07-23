@@ -13,7 +13,7 @@
 </section>
 
 <section class="container">
-	<h2>Frequently Asked Questions</h2>
+	<div class="card-panel horizontal"><h2>Frequently Asked Questions</h2></div>
 	<div class="divider"></div>
 	<div class="row">
 		<div class="col s12">

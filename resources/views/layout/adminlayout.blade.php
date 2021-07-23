@@ -16,22 +16,22 @@
 <body>
 
 <section>
-	<div class="w3-sidebar w3-bar-block green darken-4" style="width:15%">
-	  <div class="center">
-		<h2>Admin<i class="material-icons right">menu</i></h2><br>
+	<div class="w3-sidebar w3-bar-block green darken-4" style="width:15%; padding-left: 3%">
+	  <div class="left">
+		<h2 class="center">ADMIN</h2><br>
 		<div class="divider"></div><br>
 		<ul>
-			<li><a href="/dashboard">Dashboard</a><i class="material-icons left">dashboard</i></li><br><br>
-			<li><a href="/userprof">User Profile</a><i class="material-icons left">account_circle</i></li><br><br>
-			<li><a href="/notifications">Notifications</a><i class="material-icons left">notifications</i></li><br><br>
-			<li><a href="/admin/faq">FAQ</a><i class="material-icons left">question_answer</i></li>
+			<li><a href="/dashboard"><i class="material-icons">dashboard</i>&nbsp&nbspDashboard</a></li><br><br>
+			<li><a href="/userprof"><i class="material-icons">account_circle</i>&nbsp&nbspUser Profile</a></li><br><br>
+<!-- 			<li><a href="/notifications">Notifications</a><i class="material-icons left">notifications</i></li><br><br> -->
+			<li><a href="/admin/faq"><i class="material-icons">question_answer</i>&nbsp&nbspFAQ</a></li>
 		</ul><br>
 		<div class="divider"></div><br>
 		<ul>
-			<li><a href="/ipassessment">IP Assessment</a><i class="material-icons left">assignment</i></li><br>
+			<li><a href="/ipassessment"><i class="material-icons">assignment</i>&nbsp&nbspIP Assessment</a></li><br>
 			<ul>
-				<li><a href="/metrics">Metrics<i class="material-icons right">assessment</i></a></li><br>
-				<li><a href="/colleges">Projects<i class="material-icons right">storage</i></a></li><br>
+				<li><a href="/metrics"><i class="material-icons">assessment</i>&nbsp&nbspMetrics</a></li><br>
+				<li><a href="/colleges"><i class="material-icons">storage</i>&nbsp&nbspProjects</a></li><br>
 			</ul>
 		</ul>
 

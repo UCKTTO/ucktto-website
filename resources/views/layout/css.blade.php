@@ -87,6 +87,7 @@ main {
 .id{
 	width: 100%;
 	height: 100%;
+	border: #09593c solid 3px;
 }
 
 /*Services Page*/
@@ -96,13 +97,6 @@ main {
 	height: 100%;
 }
 
-#bet{
-	border:solid 2px black;
-}
-
-#bet h5{
-	border:solid 2px black;
-}
 
 /*Below this line is the old code*/
 	/*events*/
@@ -153,6 +147,5 @@ main {
 
 
 	/*admin*/
-
 </style>
 
