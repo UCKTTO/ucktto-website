@@ -1189,7 +1189,7 @@ class ProjectsSeeder extends Seeder
             'fipr'      =>    'YES' ,
       ]);   
 
-	$projects = Projects::create([
+    $projects = Projects::create([
             'college'  =>    'CITCS'    ,
             'title'     =>    'KAIN SAAN: A BAGUIO BASED FOOD LOCATOR MOBILE APPLICATION FOR LOCALS AND TOURISTS'  ,
             'author1'   =>    'MANLONG, DEANTON S.'   ,
@@ -1215,7 +1215,7 @@ class ProjectsSeeder extends Seeder
             'fipr'      =>    'NO' ,
       ]);
 
-	$projects = Projects::create([
+    $projects = Projects::create([
             'college'  =>    'CITCS'    ,
             'title'     =>    'REST-GO: A MOBILE FOOD ORDERING AND TABLE RESERVATION SYSTEM FOR RESTAURANT'  ,
             'author1'   =>    'FRANCISCO, CESAR A.'   ,
@@ -1241,7 +1241,7 @@ class ProjectsSeeder extends Seeder
             'fipr'      =>    'NO' ,
       ]);
 
-	$projects = Projects::create([
+    $projects = Projects::create([
             'college'  =>    'CITCS'    ,
             'title'     =>    'TRATESAN: CONTROLLED PET FEEDER USING REMOTE APPLICATION'  ,
             'author1'   =>    'BAWAZIR, SAEED A.'   ,
@@ -1267,7 +1267,7 @@ class ProjectsSeeder extends Seeder
             'fipr'      =>    'NO' ,
       ]);
 
-	$projects = Projects::create([
+    $projects = Projects::create([
             'college'  =>    'CITCS'    ,
             'title'     =>    'EZ-GRO: A GROCERY DELIVERY SYSTEM'  ,
             'author1'   =>    'BERNALES, RICKY P.'   ,
@@ -1293,7 +1293,7 @@ class ProjectsSeeder extends Seeder
             'fipr'      =>    'NO' ,
       ]);
 
-	$projects = Projects::create([
+    $projects = Projects::create([
             'college'  =>    'CITCS'    ,
             'title'     =>    'SECUREPLUS: AN ARDUINO-BASED HOME SECURITY SYSTEM'  ,
             'author1'   =>    'ALI SOUGOUMA'   ,
@@ -1319,7 +1319,7 @@ class ProjectsSeeder extends Seeder
             'fipr'      =>    'NO' ,
       ]);
 
-	$projects = Projects::create([
+    $projects = Projects::create([
             'college'  =>    'CITCS'    ,
             'title'     =>    'TRAPP: TEXT TO SPEECH TRANSLATOR WITH OBJECT RECOGNITION APPLICATION'  ,
             'author1'   =>    'AARON KEITH N. DELA CRUZ'   ,
@@ -1343,7 +1343,7 @@ class ProjectsSeeder extends Seeder
 
     ]);
 
-	$projects = Projects::create([
+    $projects = Projects::create([
             'college'  =>    'CITCS'    ,
             'title'     =>    'SNAPPY HOME SECURITY SYSTEM'  ,
             'author1'   =>    'JONARD WILBON U. GADUIOAN'   ,
@@ -1392,7 +1392,7 @@ class ProjectsSeeder extends Seeder
               'fipr'      =>    'NO' ,
         ]);
 
-  	$projects = Projects::create([
+    $projects = Projects::create([
               'college'  =>    'CITCS'    ,
               'title'     =>    'HOMEVIA: AN AUTOMATED ACCOMODATION LOCATOR FOR BAGUIO TRAVELERS'  ,
               'author1'   =>    'ALLAN PAUL FERNANDEZ CASTRO'   ,
@@ -1418,7 +1418,7 @@ class ProjectsSeeder extends Seeder
               'fipr'      =>    'NO' ,
         ]);
 
-  	$projects = Projects::create([
+    $projects = Projects::create([
               'college'  =>    'CITCS'    ,
               'title'     =>    'HISTORYPINES: A LOCATION-BASED AUGMENTED REALITY APPLICATION FOR TOURISTS IN BAGUIO CITY'  ,
               'author1'   =>    'STEPHANY HAN OPSINAL DEFEO'   ,
@@ -1444,7 +1444,7 @@ class ProjectsSeeder extends Seeder
               'fipr'      =>    'NO' ,
         ]);
 
-   	 $projects = Projects::create([
+     $projects = Projects::create([
               'college'  =>    'CITCS'    ,
               'title'     =>    'PSYCH IT: A VOICE AND TEXT PSYCHOLOGICAL RECOGNIZER'  ,
               'author1'   =>    'RIEZL JENALYN ANG'   ,
@@ -1493,7 +1493,7 @@ class ProjectsSeeder extends Seeder
               'fipr'      =>    'NO' ,
         ]);
 
-  	$projects = Projects::create([
+    $projects = Projects::create([
               'college'  =>    'CITCS'    ,
               'title'     =>    'E SEE-HERB: AN IMAGE RECOGNITION SYSTEM OF INDIGENOUS MEDICINAL PLANTS OF BAGUIO CITY'  ,
               'author1'   =>    'CHRISTIAN QUIDIT MENESES'   ,
@@ -1519,7 +1519,7 @@ class ProjectsSeeder extends Seeder
               'fipr'      =>    'YES' ,
         ]);
 
-  	$projects = Projects::create([
+    $projects = Projects::create([
               'college'  =>    'CITCS'    ,
               'title'     =>    'CORDITRANS: A NATIVE LANGUAGE TRANSLATOR FOR CORDILLERA'  ,
               'author1'   =>    'LHENIN OSNGAR BANAG'   ,
@@ -1545,7 +1545,7 @@ class ProjectsSeeder extends Seeder
               'fipr'      =>    'NO' ,
         ]);
 
-   	 $projects = Projects::create([
+     $projects = Projects::create([
               'college'  =>    'CITCS'    ,
               'title'     =>    'PANGANAM: THE MOBILE MENU IN YOUR POCKET'  ,
               'author1'   =>    'ZANDRO VINCE E. EDEJER'   ,
@@ -1594,7 +1594,7 @@ class ProjectsSeeder extends Seeder
               'fipr'      =>    'NO' ,
         ]);
 
-  	$projects = Projects::create([
+    $projects = Projects::create([
               'college'  =>    'CITCS'    ,
               'title'     =>    'IDENTIFEED: A FOOD RECOGNITION APP FOR HEALTH AWARENESS'  ,
               'author1'   =>    'JOHN CARLO RODRIGUES DOMINGO'   ,
@@ -1617,7 +1617,7 @@ class ProjectsSeeder extends Seeder
               'fipr'      =>    'NO' ,
         ]);
 
-  	$projects = Projects::create([
+    $projects = Projects::create([
               'college'  =>    'CITCS'    ,
               'title'     =>    'FOODES : A MOBILE APPLICATION THAT HELPS LESSEN FOOD SPOILAGE'  ,
               'author1'   =>    'AL-OWAINI, ABDULRAHMAN A.'   ,
@@ -1641,7 +1641,7 @@ class ProjectsSeeder extends Seeder
               'fipr'      =>    'YES' ,
         ]);
 
-   	 $projects = Projects::create([
+     $projects = Projects::create([
               'college'  =>    'CITCS'    ,
               'title'     =>    'CARTECH: CAR TECHNICIAN AND MECHANICS COMMUNICATION SYSTEM'  ,
               'author1'   =>    'AL-FAKIH, AHMED N.'   ,
@@ -1693,7 +1693,7 @@ class ProjectsSeeder extends Seeder
               'fipr'      =>    'YES' ,
         ]);
 
-  	$projects = Projects::create([
+    $projects = Projects::create([
               'college'  =>    'CITCS'    ,
               'title'     =>    'ASTRONAUT : A VIRTUAL REALITY SPACE WALKTHROUGH APPLICATION'  ,
               'author1'   =>    'IRIS BASILAN COPERO'   ,
@@ -1719,7 +1719,7 @@ class ProjectsSeeder extends Seeder
               'fipr'      =>    'YES' ,
         ]);
 
-  	$projects = Projects::create([
+    $projects = Projects::create([
               'college'  =>    'CITCS'    ,
               'title'     =>    'CAPCAT: A CAPSTONE CATALOG MOBILE APPLICATION FOR CITCS'  ,
               'author1'   =>    'DEBEI ANN MARCOS BANGA-AN'   ,
@@ -1745,7 +1745,7 @@ class ProjectsSeeder extends Seeder
               'fipr'      =>    'NO' ,
         ]);
 
-   	 $projects = Projects::create([
+     $projects = Projects::create([
               'college'  =>    'CITCS'    ,
               'title'     =>    'TRASH2TREASURE: A LOCATION-BASED MOBILE APPLICATION FOR SOLID WASTE MANAGEMENT IN BAGUIO CITY'  ,
               'author1'   =>    'ANGELICA MASKAY BUGNAY'   ,
@@ -2152,7 +2152,7 @@ class ProjectsSeeder extends Seeder
                 'fipr'      =>    'NO' ,
           ]);
 
-     	 $projects = Projects::create([
+         $projects = Projects::create([
                 'college'  =>    'CITCS'    ,
                 'title'     =>    'SUKLI: A MOBILE WALLET SAVINGS SYSTEM'  ,
                 'author1'   =>    'PATRICK ADRIAN MUNSYAC BALAJADIA'   ,
@@ -2201,7 +2201,7 @@ class ProjectsSeeder extends Seeder
                 'fipr'      =>    'NO' ,
           ]);
 
-    	$projects = Projects::create([
+        $projects = Projects::create([
                 'college'  =>    'CITCS'    ,
                 'title'     =>    'SUPERCLEAN APP: CLEANING AND SERVICING COMMUNICATION SYSTEM'  ,
                 'author1'   =>    'KHADIDJA ISSA'   ,
@@ -2227,7 +2227,7 @@ class ProjectsSeeder extends Seeder
                 'fipr'      =>    'NO' ,
           ]);
 
-    	$projects = Projects::create([
+        $projects = Projects::create([
                 'college'  =>    'CITCS'    ,
                 'title'     =>    'HEALTH BOARD: CLINICAL INVENTORY SYSTEM'  ,
                 'author1'   =>    'MITCHEL CANTANO CABARRUBIAS'   ,
@@ -2253,7 +2253,7 @@ class ProjectsSeeder extends Seeder
                 'fipr'      =>    'NO' ,
           ]);
 
-     	 $projects = Projects::create([
+         $projects = Projects::create([
                 'college'  =>    'CITCS'    ,
                 'title'     =>    'A MOBILE APPLICATION FOR 2D AND 3D ARCHITECTURE PLANNING AND BUILDING'  ,
                 'author1'   =>    'ERICA VANESA LAZARO MAMARIL'   ,
@@ -2639,7 +2639,7 @@ class ProjectsSeeder extends Seeder
                 'fipr'      =>    'NO' ,
           ]);
 
-    	$projects = Projects::create([
+        $projects = Projects::create([
                 'college'  =>    'CITCS'    ,
                 'title'     =>    'TAISO AR; AN AUGMENTED REALITY GYM FITNESS APP'  ,
                 'author1'   =>    'MOJZESZ R. DAMIAN'   ,
@@ -2665,7 +2665,7 @@ class ProjectsSeeder extends Seeder
                 'fipr'      =>    'NO' ,
           ]);
 
-     	 $projects = Projects::create([
+         $projects = Projects::create([
                 'college'  =>    'CITCS'    ,
                 'title'     =>    'REAL-TIME BUILDING INSTANCE DETECTION USING TENSORFLOW BASED ON FAÇADE IMAGES FOR URBAN MANAGEMENT'  ,
                 'author1'   =>    'RODNEY A. DOYAOEN'   ,
