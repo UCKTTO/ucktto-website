@@ -23,7 +23,7 @@
 			    		<!-- dropdown content -->
 				        <ul id="dropdown1" class="dropdown-content">
 							<!-- <li><a href="/datedash">Date</a></li><li class="divider"></li> -->
-							<li><a href="/name">Title</a></li><li class="divider"></li>
+							<li><a href="/name">Name</a></li><li class="divider"></li>
 							<li><a href="/category">Category</a></li><li class="divider"></li>
 						</ul>
 				      	<a class="dropdown-trigger" href="#!" data-target="dropdown1"><div class="btn green darken-4">Sort By<i class="material-icons right">arrow_drop_down</i></div></a>

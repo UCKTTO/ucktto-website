@@ -118,4 +118,5 @@ class TemplatesController extends Controller
         $faqs = FAQ::all();
         return view('faq', compact('faqs'));
     }
+
 }

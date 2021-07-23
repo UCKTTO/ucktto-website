@@ -14,7 +14,7 @@
 			<div class="col xl2 l4 m4 s12">
 				<div class="card-panel">
 					<img src="img/inventor.jpg" width="50%">
-					<h6>Inventor / Team Status <br>10%</h6>
+					<h6>Inventor / Team Status <br>5%</h6>
 					<div class="divider"></div>
 					<p>Inventor(s) knowledgeable in the field of technology.</p>
 					<div class="divider"></div>
@@ -154,7 +154,7 @@
 			<div class="col xl2 l4 m4 s12">
 				<div class="card-panel">
 					<img src="img/mf.jpg" width="50%">
-					<h6>Market Fit <br><br>30%<br><br></h6>
+					<h6>Market Fit <br><br>35%<br><br></h6>
 					<div class="divider"></div>
 					<p><br>Initial market information gathered.<br></p>
 					<div class="divider"></div>

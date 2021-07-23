@@ -9,11 +9,11 @@
 <div class="w3-container">
 	<br><br>
 	<div class="row">
-		<div class="col s6">
+		<div class="col s2">
 			<a href="/projects/{{ $projects->id }}/edit" class="btn waves-effect waves-light green darken-4">Edit Project<i class="material-icons right">edit</i></a><br><br>
 		</div>
 
-		<div class="col s6">
+		<div class="col s1">
 			<form action="/projects/{{ $projects->id }}" method="POST">
 				@csrf
 				@method('DELETE')
@@ -33,13 +33,11 @@
 			<div class="card-panel">
 				<table>
 				<tr>
-					<th>College</th>
-					<th>Department</th>
+					<th>College and/or Department</th>
 					<th>Date</th>
 				</tr>
 				<tr>
 					<td>{{ $projects->college }}</td>
-					<td>{{ $projects->department }}</td>
 					<td>{{ $projects->date}}</td>
 				</tr>
 			</table>

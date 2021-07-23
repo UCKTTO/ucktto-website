@@ -16,16 +16,14 @@
 		<form action="/projects/{{ $projects->id }}" method="POST">
 			@method('PUT')
 			@csrf
+<!-- 			@foreach ($errors->all() as $error)
+                <p class="text-danger">{{ $error }}</p>
+            @endforeach  -->
 
 			<div class="row">
-				<div class="input-field col s6">
-				<input placeholder="College" id="college" type="text" name="college" value="{{ $projects->college }}">
+				<div class="input-field col s12">
+				<input placeholder="College and/or Department" id="college" type="text" name="college" value="{{ $projects->college }}">
 				<label for="college"></label>
-				</div>
-
-				<div class="input-field col s6">
-				<input placeholder="Department" id="department" type="text" name="department" value="{{ $projects->department }}">
-				<label for="department"></label>
 				</div>
 
 				<div class="input-field col s12">

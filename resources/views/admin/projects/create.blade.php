@@ -14,25 +14,23 @@
 	<div>
 		<form action="/projects" method="POST">
 			@csrf
+			@foreach ($errors->all() as $error)
+                <p class="text-danger">{{ $error }}</p>
+            @endforeach 
 
 			<div class="row">
-				<div class="input-field col s6">
-				<input placeholder="College" id="college" type="text" name="college">
+				<div class="input-field col s12">
+				<input placeholder="College and/or Department" id="college" type="text" name="college">
 				<label for="college"></label>
 				</div>
 
-				<div class="input-field col s6">
-				<input placeholder="Department" id="department" type="text" name="department">
-				<label for="department"></label>
-				</div>
-
 				<div class="input-field col s12">
-				<input placeholder="Title" id="title" type="text" name="title">
+				<input placeholder="Title" id="title" type="text" name="title" required="">
 				<label for="title"></label>
 				</div>
 				
 				<div class="input-field col s4">
-				<input placeholder="Author 1" id="author1" type="text" name="author1">
+				<input placeholder="Author 1" id="author1" type="text" name="author1" required="">
 				<label for="author1"></label>
 				</div>
 

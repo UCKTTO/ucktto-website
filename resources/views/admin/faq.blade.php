@@ -22,7 +22,7 @@
 				<tr>
 					<td>
 						@foreach($faqs as $faq)
-			            {{ $faq->id }} <br>
+			            {{ $faq->id }}<br>
 			            @endforeach
 					</td>
 					<td>
@@ -34,6 +34,10 @@
 						@foreach($faqs as $faq)
               			{{ $faq->answer }} <br>
               			@endforeach
+					</td>
+					<td>@foreach($faqs as $faq)
+						<a style="text-decoration: underline" href="/faq/{{ $faq->id }}"> View</a>
+						@endforeach
 					</td>
 				</tr>
 			</tbody>

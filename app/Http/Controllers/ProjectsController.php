@@ -25,47 +25,46 @@ class ProjectsController extends Controller
 
         $validated_fields = request()->validate([
             'college' => 'required',
-	        'department'=> 'required',
 	        'title'=> 'required',
 	        'author1'=> 'required',
-	        'author2'=> 'required',
-	        'author3'=> 'required',
-	        'author4'=> 'required',
-	        'author5'=> 'required',
-	        'author6'=> 'required',
-	        'author7'=> 'required',
-	        'author8'=> 'required',
-	        'author9'=> 'required',
-	        'author10'=> 'required',
-	        'email1'=> 'required',
-	        'email2'=> 'required',
-	        'email3'=> 'required',
-	        'email4'=> 'required',
-	        'email5'=> 'required',
-	        'email6'=> 'required',
-	        'email7'=> 'required',
-	        'email8'=> 'required',
-	        'email9'=> 'required',
-	        'email10'=> 'required',
-	        'phonenumber1'=> 'required',
-	        'phonenumber2'=> 'required',
-	        'phonenumber3'=> 'required',
-	        'phonenumber4'=> 'required',
-	        'phonenumber5'=> 'required',
-	        'phonenumber6'=> 'required',
-	        'phonenumber7'=> 'required',
-	        'phonenumber8'=> 'required',
-	        'phonenumber9'=> 'required',
-	        'phonenumber10'=> 'required',
-	        'adviser'=> 'required',
-	        'date'=> 'required',
-	        'description'=> 'required',
-	        'pip'=> 'required',
-	        'pil'=> 'required',
+	        'author2'=> 'nullable',
+	        'author3'=> 'nullable',
+	        'author4'=> 'nullable',
+	        'author5'=> 'nullable',
+	        'author6'=> 'nullable',
+	        'author7'=> 'nullable',
+	        'author8'=> 'nullable',
+	        'author9'=> 'nullable',
+	        'author10'=> 'nullable',
+	        'email1'=> 'nullable',
+	        'email2'=> 'nullable',
+	        'email3'=> 'nullable',
+	        'email4'=> 'nullable',
+	        'email5'=> 'nullable',
+	        'email6'=> 'nullable',
+	        'email7'=> 'nullable',
+	        'email8'=> 'nullable',
+	        'email9'=> 'nullable',
+	        'email10'=> 'nullable',
+	        'phonenumber1'=> 'nullable',
+	        'phonenumber2'=> 'nullable',
+	        'phonenumber3'=> 'nullable',
+	        'phonenumber4'=> 'nullable',
+	        'phonenumber5'=> 'nullable',
+	        'phonenumber6'=> 'nullable',
+	        'phonenumber7'=> 'nullable',
+	        'phonenumber8'=> 'nullable',
+	        'phonenumber9'=> 'nullable',
+	        'phonenumber10'=> 'nullable',
+	        'adviser'=> 'nullable',
+	        'date'=> 'nullable',
+	        'description'=> 'nullable',
+	        'pip'=> 'nullable',
+	        'pil'=> 'nullable',
 	        'a'=> 'required',
 	        'b'=> 'required',
 	        'c'=> 'required',
-	        'd'=> 'required',
+	        'd'=>'required',
 	        'e'=> 'required',
 	        'f'=> 'required',
 	        'overall'=> 'required',
@@ -84,47 +83,46 @@ class ProjectsController extends Controller
 
     	$validated_fields = request()->validate([
             'college' => 'required',
-	        'department'=> 'required',
 	        'title'=> 'required',
 	        'author1'=> 'required',
-	        'author2'=> 'required',
-	        'author3'=> 'required',
-	        'author4'=> 'required',
-	        'author5'=> 'required',
-	        'author6'=> 'required',
-	        'author7'=> 'required',
-	        'author8'=> 'required',
-	        'author9'=> 'required',
-	        'author10'=> 'required',
-	        'email1'=> 'required',
-	        'email2'=> 'required',
-	        'email3'=> 'required',
-	        'email4'=> 'required',
-	        'email5'=> 'required',
-	        'email6'=> 'required',
-	        'email7'=> 'required',
-	        'email8'=> 'required',
-	        'email9'=> 'required',
-	        'email10'=> 'required',
-	        'phonenumber1'=> 'required',
-	        'phonenumber2'=> 'required',
-	        'phonenumber3'=> 'required',
-	        'phonenumber4'=> 'required',
-	        'phonenumber5'=> 'required',
-	        'phonenumber6'=> 'required',
-	        'phonenumber7'=> 'required',
-	        'phonenumber8'=> 'required',
-	        'phonenumber9'=> 'required',
-	        'phonenumber10'=> 'required',
-	        'adviser'=> 'required',
-	        'date'=> 'required',
-	        'description'=> 'required',
-	        'pip'=> 'required',
-	        'pil'=> 'required',
+	        'author2'=> 'nullable',
+	        'author3'=> 'nullable',
+	        'author4'=> 'nullable',
+	        'author5'=> 'nullable',
+	        'author6'=> 'nullable',
+	        'author7'=> 'nullable',
+	        'author8'=> 'nullable',
+	        'author9'=> 'nullable',
+	        'author10'=> 'nullable',
+	        'email1'=> 'nullable',
+	        'email2'=> 'nullable',
+	        'email3'=> 'nullable',
+	        'email4'=> 'nullable',
+	        'email5'=> 'nullable',
+	        'email6'=> 'nullable',
+	        'email7'=> 'nullable',
+	        'email8'=> 'nullable',
+	        'email9'=> 'nullable',
+	        'email10'=> 'nullable',
+	        'phonenumber1'=> 'nullable',
+	        'phonenumber2'=> 'nullable',
+	        'phonenumber3'=> 'nullable',
+	        'phonenumber4'=> 'nullable',
+	        'phonenumber5'=> 'nullable',
+	        'phonenumber6'=> 'nullable',
+	        'phonenumber7'=> 'nullable',
+	        'phonenumber8'=> 'nullable',
+	        'phonenumber9'=> 'nullable',
+	        'phonenumber10'=> 'nullable',
+	        'adviser'=> 'nullable',
+	        'date'=> 'nullable',
+	        'description'=> 'nullable',
+	        'pip'=> 'nullable',
+	        'pil'=> 'nullable',
 	        'a'=> 'required',
 	        'b'=> 'required',
 	        'c'=> 'required',
-	        'd'=> 'required',
+	        'd'=>'required',
 	        'e'=> 'required',
 	        'f'=> 'required',
 	        'overall'=> 'required',
@@ -132,7 +130,7 @@ class ProjectsController extends Controller
         ]);
 
         $projects->update($validated_fields);
-    	return redirect('/colleges');
+    	return view ('/admin/projects/edit', compact('projects'));
     }
 
     public function destroy(Projects $projects){
@@ -143,7 +141,7 @@ class ProjectsController extends Controller
     public function search(Request $request){
     	$search = $request->input('search');
 
-    	$projects = Projects::where('title','LIKE',"%{$search}%")->orWhere('college','LIKE',"%{$search}%")->orWhere('department','LIKE',"%{$search}%")->orWhere('author1','LIKE',"%{$search}%")->orWhere('author2','LIKE',"%{$search}%")->orWhere('author3','LIKE',"%{$search}%")->orWhere('author4','LIKE',"%{$search}%")->orWhere('author5','LIKE',"%{$search}%")->orWhere('author6','LIKE',"%{$search}%")->orWhere('adviser','LIKE',"%{$search}%")->orWhere('action','LIKE',"%{$search}%")->orWhere('pip','LIKE',"%{$search}%")->orWhere('pil','LIKE',"%{$search}%")->get();
+    	$projects = Projects::where('title','LIKE',"%{$search}%")->orWhere('college','LIKE',"%{$search}%")->orWhere('author1','LIKE',"%{$search}%")->orWhere('author2','LIKE',"%{$search}%")->orWhere('author3','LIKE',"%{$search}%")->orWhere('author4','LIKE',"%{$search}%")->orWhere('author5','LIKE',"%{$search}%")->orWhere('author6','LIKE',"%{$search}%")->orWhere('adviser','LIKE',"%{$search}%")->orWhere('action','LIKE',"%{$search}%")->orWhere('pip','LIKE',"%{$search}%")->orWhere('pil','LIKE',"%{$search}%")->get();
 
     	return view('/admin/projects/search', compact('projects'));
     }
@@ -151,16 +149,16 @@ class ProjectsController extends Controller
 
     public function date(){
     	$projects = Projects::all()->sortBy('date');
-    	return view('/admin/projects/sort', compact('projects'));;
+    	return view('/admin/projects/sort', compact('projects'));
     }
 
     public function title(){
     	$projects = Projects::all()->sortBy('title');
-    	return view('/admin/projects/sort', compact('projects'));;
+    	return view('/admin/projects/sort', compact('projects'));
     }
 
     public function col(){
     	$projects = Projects::all()->sortBy('college');
-    	return view('/admin/projects/sort', compact('projects'));;
+    	return view('/admin/projects/sort', compact('projects'));
     }
 }

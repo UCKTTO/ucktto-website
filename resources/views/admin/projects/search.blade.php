@@ -11,9 +11,9 @@
 	@if($projects->isNotEmpty())
 	<table>
 		<tr>
-			<th>College</th>
-			<th>Department</th>
-			<th>Title</th>
+			<th>&nbspCollege / Dept</th>
+			<th>&nbsp&nbspDate&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</th>
+			<th>&nbsp&nbsp&nbsp&nbspTitle</th>	
 		</tr>
 		<tr>
 			<td>@foreach($projects as $project)
@@ -22,7 +22,7 @@
 			</td>
 			
 			<td>@foreach($projects as $project)
-					{{ $project->department }} <br><br>
+					{{ $project->date }} <br><br>
 				@endforeach
 			</td>					
 

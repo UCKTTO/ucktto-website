@@ -9,7 +9,6 @@ class Projects extends Model
     protected $table = 'projects';
     protected $fillable = [
         'college',
-        'department',
         'title',
         'author1',
         'author2',

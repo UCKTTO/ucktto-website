@@ -17,7 +17,7 @@
   <div class="container">
     <div class="row">
     <div class="col s12">
-      <h2>About</h2>
+      <div class="card-panel horizontal"><h2>About</h2></div>
       <div class="divider"></div>
     </div>
     <div class="col s12">
@@ -45,12 +45,12 @@
 
     <div class="row">
       <div class="col xl6 l6 m12 s12">
-        <h2>Vision</h2>
+        <div class="card-panel horizontal"><h2>Vision</h2></div>
         <div class="divider"></div>
         <p>The UC-KTTO envisions being the leading advocate of knowledge and technology transfer services and IP management of research and project outputs that aim to solve social and community problems in the Country.</p>
       </div>
       <div class="col xl6 l6 m12 s12">
-        <h2>Mission and Objectives</h2>
+        <div class="card-panel horizontal"><h2>Mission and Objectives</h2></div>
         <div class="divider"></div>
         <p style="text-align: justify;">The UC-KTTO aims to:
             <br>a. Discover new knowledge and encourage the discoveries and inventions made by employees, students and parents of the University.
@@ -65,7 +65,7 @@
     <div class="divider"></div>
 
     <div class="row">
-      <h2>The Team</h2>
+      <div class="card-panel horizontal"><h2>The Team</h2></div>
       <div class="divider"></div><br>
       <div class="col s12">
         <img src="img/final.png" class="id">

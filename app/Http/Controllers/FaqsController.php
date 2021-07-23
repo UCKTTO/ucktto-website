@@ -23,24 +23,28 @@ class FaqsController extends Controller
         $users = FAQ::create($validated_fields);
        	return redirect('/admin/faq');
     }
+    
+    public function show(FAQ $faqs){
+        return view('/admin/faq/show', compact('faqs'));
+    }  
+    
+    public function edit(FAQ $faqs){
+    	return view ('/admin/faq/faqedit', compact('faqs'));
+    }
 
-    // public function edit(FAQ $faqs){
-    // 	return view ('/admin/faqedit', compact('faqs'));
-    // }
+    public function update(FAQ $faqs){
 
-    // public function update(FAQ $faqs){
+    	$validated_fields = request()->validate([
+            'question' => 'required',
+            'answer' => 'required'
+        ]);
 
-    // 	$validated_fields = request()->validate([
-    //         'question' => 'required',
-    //         'answer' => 'required'
-    //     ]);
+        $faqs->update($validated_fields);
+    	return redirect('/admin/faq');
+    }
 
-    //     $faqs->update($validated_fields);
-    // 	return redirect('/admin/faq');
-    // }
-
-    // public function destroy(FAQ $faqs){
-    // 	$faqs->delete();
-    // 	return redirect('/admin/faq');
-    // }
+    public function destroy(FAQ $faqs){
+    	$faqs->delete();
+    	return redirect('/admin/faq');
+    }
 }
