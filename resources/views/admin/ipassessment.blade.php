@@ -12,7 +12,7 @@
 		<h2>IP Assessment</h2>
 		<div class="row">
 			<div class="col xl4 l6 m4 s12">
-				<div class="card-panel">
+				<a href="/colleges"><div class="card-panel">
 					<table>
 						<thead>
 							<tr>
@@ -45,7 +45,7 @@
 							</tr>
 						</tbody>
 					</table>
-				</div>
+				</div></a>
 			</div>
 
 			<div class="col xl4 l6 m4 s12">
@@ -456,7 +456,7 @@
 			</div>
 
 			<div class="col s12">
-				<div class="card-panel">
+				<a href="/colleges"><div class="card-panel">
 					<table>
 						<thead>
 							<tr>
@@ -489,7 +489,7 @@
 							</tr>
 						</tbody>
 					</table>
-				</div>
+				</div></a>
 			</div>
 
 

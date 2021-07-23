@@ -16,7 +16,6 @@ class CreateProjectsTable extends Migration
         Schema::create('projects', function (Blueprint $table) {
             $table->id();
             $table->string('college')->nullable();
-            $table->string('department')->nullable();
             $table->string('title');
             $table->string('author1');
             $table->string('author2')->nullable();
@@ -49,7 +48,7 @@ class CreateProjectsTable extends Migration
             $table->string('phonenumber9')->nullable();
             $table->string('phonenumber10')->nullable();
             $table->string('adviser')->nullable();
-            $table->date('date')->nullable();
+            $table->string('date')->nullable();
             $table->text('description')->nullable();
             $table->string('pip')->nullable();
             $table->string('pil')->nullable();
@@ -59,9 +58,9 @@ class CreateProjectsTable extends Migration
             $table->integer('d')->leghth(11);
             $table->integer('e')->leghth(11);
             $table->integer('f')->leghth(11);
-            $table->integer('overall');
-            $table->string('action');
-            $table->string('fipr');
+            $table->integer('overall')->nullable();
+            $table->string('action')->nullable();
+            $table->string('fipr')->nullable();
             $table->timestamps();
         });
     }
