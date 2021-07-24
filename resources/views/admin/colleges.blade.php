@@ -12,7 +12,7 @@
 		<form action="/search" method="GET" role="search">
 		    @csrf
 		    <div class="row">
-		    	<div class="input-field col s8">
+		    	<div class="input-field col s7">
 			        <input type="text" name="search" placeholder="Search Projects" required>
 			    </div>
 			    <div class="input-field col s1">
@@ -32,6 +32,12 @@
 			    </div>
 			    <div class="input-field col s1">
 			      	<button class="btn waves-effect green darken-4"><a href="/projects/create">ADD</a></button>
+			      	
+		    	</div>
+		    	<div class="input-field col s1">
+			      	        <form action="{{ route('our_backup_database') }}" method="get">
+					            <button style="submit" class="btn btn-primary"> download</button>
+					        </form>
 			      	
 		    	</div>
 		    </div>   

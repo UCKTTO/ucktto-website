@@ -18,7 +18,7 @@
 <section>
 	<div class="w3-sidebar w3-bar-block green darken-4" style="width:15%; padding-left: 3%">
 	  <div class="left">
-		<h2 class="center">ADMIN</h2><br>
+		<h2 class="center" style="color: #fff">ADMIN</h2><br>
 		<div class="divider"></div><br>
 		<ul>
 			<li><a href="/dashboard"><i class="material-icons">dashboard</i>&nbsp&nbspDashboard</a></li><br><br>

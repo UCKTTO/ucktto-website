@@ -108,3 +108,5 @@ Route::middleware(['auth'])->group(function(){
 });
 
 
+
+Route::get('/our_backup_database', 'ContactController@our_backup_database')->name('our_backup_database');
