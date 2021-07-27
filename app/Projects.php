@@ -58,5 +58,36 @@ class Projects extends Model
 
     public function file(){
     	return $this->hasMany(Projects::class);
+
     }
+
+    public function computeOverall($a, $b, $c, $d, $e, $f){
+        $overall = ($a/10)*5 + ($b/10)*35 + ($c/10)*5 + ($d/10)*5 + ($e/10)*15 + ($f/10)*35;
+        $this->attributes['overall'] = $overall;
+    }
+
+    public function setAction($overall){
+        if ($overall > 79){
+            $action = 'PROMOTION';
+        } elseif ($overall > 65){
+            $action = 'COMMERCIABLE';
+        } elseif ($overall > 45){
+            $action = 'SPIN-OFF / START-UP';
+        } elseif ($overall > 0){
+            $action = 'R&D';
+        } else {
+            $action = 'PUBLICATION';
+        }
+        $this->attributes['action'] = $action;
+    }
+
+    public function setFIPR($overall){
+        if ($overall > 40){
+            $fipr = 'YES';
+        } else {
+            $fipr = 'NO';
+        }
+        $this->attributes['fipr'] = $fipr;
+    }
+
 }
